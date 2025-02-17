@@ -108,7 +108,7 @@
     }
     // 限时答题按钮
     .activity-btn {
-      /deep/ .border {
+      ::v-deep .border {
         width: 90%;
         padding: 0 5%;
         justify-content: space-around;
