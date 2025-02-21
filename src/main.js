@@ -9,6 +9,8 @@ import 'vue-awesome/icons/angle-right';
 import App from './App';
 import router from './router';
 import store from './store';
+import Vant from 'vant';
+import 'vant/lib/index.css';
 import '../mock/mock';
 import loadingIcon from './assets/icon/loading-icon.svg';
 import loadingError from './assets/icon/loading-error.svg';

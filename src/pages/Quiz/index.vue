@@ -184,19 +184,19 @@ export default {
     },
     // 倒计时
     countdown() {
-      clearInterval(this.countdownInterval);
-      this.countdownInterval = setInterval(() => {
-        if (this.restTime === 1) {
-          this.playAudio('timeout');
-        }
-        if (this.restTime === 0) {
-          this.optionsInfo = new Array(this.optionsNum).fill({ selected: true });
-          clearInterval(this.countdownInterval);
-          this.showResult();
-          return;
-        }
-        this.restTime -= 1;
-      }, 1000);
+      // clearInterval(this.countdownInterval);
+      // this.countdownInterval = setInterval(() => {
+      //   if (this.restTime === 1) {
+      //     this.playAudio('timeout');
+      //   }
+      //   if (this.restTime === 0) {
+      //     this.optionsInfo = new Array(this.optionsNum).fill({ selected: true });
+      //     clearInterval(this.countdownInterval);
+      //     this.showResult();
+      //     return;
+      //   }
+      //   this.restTime -= 1;
+      // }, 1000);
     },
     showQuestion() {
       // 获取题目

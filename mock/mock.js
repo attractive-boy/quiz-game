@@ -33,7 +33,7 @@ Mock.mock(/\/rank/, 'get', {
   'rankingList|20-30': [
     {
       openid: '@id',
-      nickname: '@name',
+      nickname: '10010',
       headImgUrl: 'https://placeimg.com/64/64/people@word',
       score: '@natural(0, 999)'
     }
